@@ -1,6 +1,6 @@
 # Falmata Wako's Portfolio
 
-Welcome to my GitHub portfolio! Below you'll find information about my background, professional experience, work examples, skills, and additional details. Feel free to explore and reach out to me through my [LinkedIn](https://www.linkedin.com/in/falmatawako/).
+Welcome to my GitHub portfolio! Below you'll find information about my background, professional experience, work examples, skills, and additional details.
 
 ## Table of Contents
 - [About Me](#about-me)
@@ -12,7 +12,7 @@ Welcome to my GitHub portfolio! Below you'll find information about my backgroun
 <a name="about-me"></a>
 ## About Me
 
-Hello, I'm Falmata Wako, currently pursuing a BSBA with a double major in Business Information & Analytics and Finance at the University of Denver – Daniels College of Business. Expected to graduate in June 2024. You can reach out to me at wakofalmata@gmail.com or connect on [LinkedIn](https://www.linkedin.com/in/falmatawako/).
+Hello, I'm Falmata Wako, currently pursuing a BSBA with a double major in Business Information & Analytics and Finance at the University of Denver – Daniels College of Business. Expected to graduate in June 2024. You can reach out to me at my email listed on my resume or connect on [LinkedIn](https://www.linkedin.com/in/falmatawako/).
 
 ### Education
 **University of Denver – Daniels College of Business**
