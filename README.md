@@ -97,7 +97,7 @@ Full Project: [View Code](Falmata_Wako_Homework_2.html)
 <a name="skills"></a>
 ## Skills
 
-The following skills are either from a class setting, work experience, self-thaught through courses, or a combination of all. Feel free to ask me about any of them and I can elaborate.
+The following skills are either from a class setting, work experience, self-thaught through courses, or a combination of all. My work samples above are examples of where I've used most of the skills I've listed below. But please feel free to ask me about any of them and I can elaborate.
 
 ### Technical Skills
 - **Programming Languages:** Python, SQL, VBA, C#, R
