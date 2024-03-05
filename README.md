@@ -40,7 +40,7 @@ Hi, I'm Falmata Wako, currently pursuing a Bachelor of Science in Business Admin
 
 ### J.P. Morgan (San Francisco, CA)
 **Investment Banking Summer Analyst, Mergers and Acquisitions Group | June 2023 – August 2023**
-- Collaborated on 4 M&As and 1 shareholder activism deal within technology and healthcare industry
+- Collaborated on 4 M&As and 1 shareholder activism deal within the technology and healthcare industry
 - Conducted 10+ valuation analyses (DCF, LBO, etc.) and prepared presentation materials for clients
 - Engaged with 4 sets of stakeholders to improve and deliver on key performance metrics and goals
 - Notable Deals Staffed on:
@@ -56,8 +56,12 @@ Hi, I'm Falmata Wako, currently pursuing a Bachelor of Science in Business Admin
 - Analyzed confidential information memorandums of 15 acquisition targets, enriching strategic insights
 - Proposed targeted questions for acquisition targets and sell-side advisors, streamlining due diligence
 - Recommended and justified new geographic markets for portfolio expansion, driving organic growth
+- Notable Project
+    - Conducted a geographic analysis of a potential location for platform company expansion. Researched different                regions to find the best area the company should invest in for expanding the portfolio company footprint.
+- Technologies: Microsoft Office Suite (Excel, PowerPoint, OneDrive)
+- Soft Skills: Communication, persuasion, presentation, teamwork
 
-[View Full Work Experience on LinkedIn](https://www.linkedin.com/in/falmatawako/).
+[View Full Work Experience on LinkedIn](https://www.linkedin.com/in/falmatawako/)
 
 <a name="work-examples"></a>
 ## Work Samples
