@@ -12,14 +12,16 @@ Welcome to my GitHub portfolio! Below you'll find information about my backgroun
 <a name="about-me"></a>
 ## About Me
 
-Hello, I'm Falmata Wako, currently pursuing a BSBA with a double major in Business Information & Analytics and Finance at the University of Denver – Daniels College of Business. Expected to graduate in June 2024. You can reach out to me at my email listed on my resume or connect on [LinkedIn](https://www.linkedin.com/in/falmatawako/).
+Hi, I'm Falmata Wako, currently pursuing a Bachelor of Science in Business Administration with a double major in Business Information & Analytics and Finance at the University of Denver – Daniels College of Business with an expected graduation in June 2024. You can reach out to me at the email listed on my resume or connect on [LinkedIn](https://www.linkedin.com/in/falmatawako/).
 
 ### Education
 **University of Denver – Daniels College of Business**
 - *Location:* Denver, CO
-- *Major:* Business Information & Analytics and Finance
+- *Majors:* Business Information & Analytics and Finance
 - *Expected Graduation:* June 2024
 - *GPA:* 3.95/4.00
+- *Relevant Coursework:* Project Management, Information Management, Business Communication, Automating Business Processes, Data Mining and Warehousing, Leadership, Business Intelligence
+- *Study Abroad Program:* Queen Mary, University of London during the Fall 2022 semester in London, England
 
 [View Full Resume](link_to_resume.pdf)
 
