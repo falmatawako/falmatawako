@@ -77,10 +77,10 @@ Collaboratively led team members and created a data mart for a shoe store using 
 
 Data Mart Build Code: [View Code](DMBuildCode.txt)
 
-### R Flexdashboard
-Designed an interactive dashboard to explore salary data using various predictive modeling techniques.
-
-[View More Projects](link_to_projects.md)
+### Simplex Linear Programming Optimization Problem
+Solved an optimization problem using Pandas and Pyomo in Python. The question I was trying to answer was "What is the minimum distance the professor can drive to deliver 5 cars to 3 different students given a number of constraints?"
+Solution Summary:
+<img src="https://raw.githubusercontent.com/falmatawako/falmatawako/main/trackfoliowelcomepage.png" alt="Trackfolio Welcome Page" height="300">
 
 <a name="skills"></a>
 ## Skills
