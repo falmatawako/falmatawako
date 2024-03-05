@@ -25,6 +25,9 @@ Hi, I'm Falmata Wako, currently pursuing a Bachelor of Science in Business Admin
 
 [View Resume](Falmata_Wako_Resume.pdf)
 
+
+[Back to Top](#top)
+
 <a name="professional-experience"></a>
 ## Professional Experience
 
@@ -63,6 +66,9 @@ Hi, I'm Falmata Wako, currently pursuing a Bachelor of Science in Business Admin
 
 [View Full Work Experience on LinkedIn](https://www.linkedin.com/in/falmatawako/)
 
+[Back to Top](#top)
+
+
 <a name="work-examples"></a>
 ## Work Samples
 
@@ -84,19 +90,24 @@ Optimal Solution:
 <img src="https://raw.githubusercontent.com/falmatawako/falmatawako/main/SolutionSummary.png">
 
 Full Project: [View Code](Falmata_Wako_Homework_2.html)
+
+[Back to Top](#top)
+
+
 <a name="skills"></a>
 ## Skills
 
 ### Technical Skills
 - **Programming Languages:** Python, SQL, VBA, C#, R
-- **Data Tools:** Tableau, Power BI, MS SQL Server Management Studio, Excel
-- **Other Tools:** Salesforce (CRM), JMP
+- **Data Tools:** Tableau, Power BI, MS SQL Server Management Studio, Excel, Salesforce (CRM), JMP
 - **Certifications:**
-  - [Microsoft Expert Access 2019](https://www.credly.com/badges/e654fce3-19be-40b3-9347-228eea2ce3a1/public_url)
-  - [Microsoft Expert Excel 2019](https://www.credly.com/badges/23f6c6da-fbcd-4a01-bedc-2f9ca4e5a540/public_url)
-  - [Microsoft Expert Word 2019](https://www.credly.com/badges/ac1cb133-b395-4a61-a71c-8fd6ea908771/public_url)
-  - [Microsoft Associate PowerPoint 2019](https://www.credly.com/badges/e1f089c5-e148-4a30-9dc3-b6551e873dd8/public_url)
-  - [Microsoft Associate Outlook 2019](https://www.credly.com/badges/7204aaa1-f592-4582-bc1c-7444f5d49cba/public_url)
+  - [Advanced SQL for Data Scientists](https://media.licdn.com/dms/image/C561FAQH_P0dm2hb6Rg/feedshare-document-cover-images_1280/0/1678515500862?e=1710223200&v=beta&t=ZP2umEFZeEKgLh_1SSuu8KvyHnAVBMsA01VVhjriXnU)
+  - [Learning SQL Programming](https://media.licdn.com/dms/image/C561FAQFOg1J1-lv8tQ/feedshare-document-cover-images_1280/0/1678515484488?e=1710223200&v=beta&t=hZD7SBbTe2tewrnKtdp_Wxz8nodZOZ-Fh3lYzao6Z0o)
+  - [Microsoft Excel 2019](https://www.credly.com/badges/e1b2c0d8-ba63-4971-a4a2-99f911dee487?source=linked_in_profile)
+  - [Microsoft Word 2019](https://www.credly.com/badges/9ce0e5c8-abe2-4c7b-948b-3a513cbbb93c?source=linked_in_profile)
+  - [Microsoft PowerPoint 2019](https://www.credly.com/badges/6101894c-c15d-446d-817c-64a7287b015d?source=linked_in_profile)
+  - [Problem Solving Technique](https://media.licdn.com/dms/image/C561FAQEG-Fn_p7-MQQ/feedshare-document-cover-images_1280/0/1678515527807?e=1710223200&v=beta&t=dyyISeumGzNO0mvZwhbQDtFy1y4xIKEWaKqKJWuYGn4)
+  - [Critical Thinking](https://media.licdn.com/dms/image/C561FAQHp-xdG4_dYMQ/feedshare-document-cover-images_1280/0/1678515556142?e=1710226800&v=beta&t=q-Vpordm5FMevKEoVS1MDNgMh-KbUb8H4ujDE3EzGBI)
 
 ### Soft Skills
 - Project Management
@@ -105,6 +116,11 @@ Full Project: [View Code](Falmata_Wako_Homework_2.html)
 - Automating Business Processes
 - Leadership
 - Business Intelligence
+- Teamwork
+- Presentation
+- Problem Solving
+- Collaboration
+- Attention to Detail
 
 <a name="additional"></a>
 ## Additional
@@ -116,11 +132,17 @@ Full Project: [View Code](Falmata_Wako_Homework_2.html)
 **Representative | January 2017 – May 2017**
 - Led meetings and engaged with school administrators and students to increase school spirit.
 
-### Hobbies
-- Teaching
-- Facilitating
-- Problem Solving
+### Reiman Fund 1 – Part of the University of Denver’s Endowment Fund
+- Collaboratively manage a $500K active-strategy equity portfolio overlooking stocks in multiple sectors.
 
-Feel free to explore more about my work, skills, and experiences! If you have any questions or opportunities, don't hesitate to contact me.
+
+### Hobbies
+- Soccer (Watching the Premier League and Playing)
+- Personal Finance (Stock Market, Credit Cards, etc)
+- YouTube
+- Combat Sports (MMA, Boxing)
+- A little bit of Formula 1
+
+Don't hesitate to contact me.
 
 [Back to Top](#top)
