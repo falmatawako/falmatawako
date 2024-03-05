@@ -68,6 +68,7 @@ Hi, I'm Falmata Wako, currently pursuing a Bachelor of Science in Business Admin
 
 ### Trackfolio
 Developed a Windows Forms app for tracking past stock trades using C#, MS SQL Server, and Visio.
+<img src="https://raw.githubusercontent.com/falmatawako/falmatawako/main/trackfoliowelcomepage.png" alt="Trackfolio Welcome Page" height="300">
 
 ### Shoe Store Data Mart
 Collaboratively led team members and created a data mart for a shoe store using SSIS and Python.
