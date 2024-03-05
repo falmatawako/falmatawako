@@ -1,0 +1,228 @@
+USE [master]
+GO
+/****** Object:  Database [ChampionKicksDM]    Script Date: 10/6/2023 8:04:28 PM ******/
+CREATE DATABASE [ChampionKicksDM]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'ChampionKicksDM', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ChampionKicksDM.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'ChampionKicksDM_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\ChampionKicksDM_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT
+GO
+ALTER DATABASE [ChampionKicksDM] SET COMPATIBILITY_LEVEL = 150
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [ChampionKicksDM].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [ChampionKicksDM] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET AUTO_CLOSE OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [ChampionKicksDM] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [ChampionKicksDM] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET  ENABLE_BROKER 
+GO
+ALTER DATABASE [ChampionKicksDM] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [ChampionKicksDM] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET RECOVERY FULL 
+GO
+ALTER DATABASE [ChampionKicksDM] SET  MULTI_USER 
+GO
+ALTER DATABASE [ChampionKicksDM] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [ChampionKicksDM] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [ChampionKicksDM] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [ChampionKicksDM] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [ChampionKicksDM] SET DELAYED_DURABILITY = DISABLED 
+GO
+ALTER DATABASE [ChampionKicksDM] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+EXEC sys.sp_db_vardecimal_storage_format N'ChampionKicksDM', N'ON'
+GO
+ALTER DATABASE [ChampionKicksDM] SET QUERY_STORE = OFF
+GO
+USE [ChampionKicksDM]
+GO
+/****** Object:  Table [dbo].[DimCustomer]    Script Date: 10/6/2023 8:04:28 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimCustomer](
+	[Customer_SK] [int] IDENTITY(1,1) NOT NULL,
+	[Customer_BK] [int] NOT NULL,
+	[FirstName] [varchar](100) NOT NULL,
+	[LastName] [varchar](100) NOT NULL,
+	[Age] [int] NOT NULL,
+	[Email] [varchar](100) NOT NULL,
+	[Gender] [varchar](6) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Customer_SK] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimDate]    Script Date: 10/6/2023 8:04:28 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimDate](
+	[Date_SK] [int] NOT NULL,
+	[Date] [date] NULL,
+	[FullDate] [nchar](10) NULL,
+	[DayOfMonth] [int] NULL,
+	[DayName] [nvarchar](9) NULL,
+	[DayOfWeek] [int] NULL,
+	[DayOfWeekInMonth] [int] NULL,
+	[DayOfWeekInYear] [int] NULL,
+	[DayOfQuarter] [int] NULL,
+	[DayOfYear] [int] NULL,
+	[WeekOfMonth] [int] NULL,
+	[WeekOfQuarter] [int] NULL,
+	[WeekOfYear] [int] NULL,
+	[Month] [int] NULL,
+	[MonthName] [nvarchar](9) NULL,
+	[MonthOfQuarter] [int] NULL,
+	[Quarter] [nchar](2) NULL,
+	[QuarterName] [nvarchar](9) NULL,
+	[Year] [int] NULL,
+	[YearName] [char](7) NULL,
+	[MonthYear] [char](10) NULL,
+	[MMYYYY] [int] NULL,
+	[FirstDayOfMonth] [date] NULL,
+	[LastDayOfMonth] [date] NULL,
+	[FirstDayOfQuarter] [date] NULL,
+	[LastDayOfQuarter] [date] NULL,
+	[FirstDayOfYear] [date] NULL,
+	[LastDayOfYear] [date] NULL,
+	[IsHoliday] [bit] NULL,
+	[IsWeekday] [bit] NULL,
+	[Holiday] [nvarchar](50) NULL,
+	[Season] [nvarchar](10) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Date_SK] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimLocation]    Script Date: 10/6/2023 8:04:28 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimLocation](
+	[Location_SK] [int] IDENTITY(1,1) NOT NULL,
+	[Location_BK] [int] NOT NULL,
+	[IsOnline] [varchar](3) NOT NULL,
+	[USState] [varchar](14) NOT NULL,
+	[City] [varchar](50) NOT NULL,
+	[StreetAddress] [varchar](50) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Location_SK] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimProduct]    Script Date: 10/6/2023 8:04:28 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimProduct](
+	[Product_SK] [int] IDENTITY(1,1) NOT NULL,
+	[Product_BK] [int] NOT NULL,
+	[BrandName] [varchar](11) NOT NULL,
+	[ModelName] [varchar](35) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Product_SK] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[FactOrder]    Script Date: 10/6/2023 8:04:28 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[FactOrder](
+	[Customer_SK] [int] NOT NULL,
+	[Product_SK] [int] NOT NULL,
+	[Location_SK] [int] NOT NULL,
+	[Date_SK] [int] NOT NULL,
+	[OrderNumber] [int] NOT NULL,
+	[Quantity] [int] NOT NULL,
+	[Price] [varchar](50) NOT NULL,
+	[OrderDate] [int] NOT NULL,
+ CONSTRAINT [pk_FactOrder] PRIMARY KEY CLUSTERED 
+(
+	[Customer_SK] ASC,
+	[Product_SK] ASC,
+	[Location_SK] ASC,
+	[Date_SK] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[FactOrder]  WITH CHECK ADD  CONSTRAINT [fk_FactOrder_DimCustomer] FOREIGN KEY([Customer_SK])
+REFERENCES [dbo].[DimCustomer] ([Customer_SK])
+GO
+ALTER TABLE [dbo].[FactOrder] CHECK CONSTRAINT [fk_FactOrder_DimCustomer]
+GO
+ALTER TABLE [dbo].[FactOrder]  WITH CHECK ADD  CONSTRAINT [fk_FactOrder_DimDate] FOREIGN KEY([Date_SK])
+REFERENCES [dbo].[DimDate] ([Date_SK])
+GO
+ALTER TABLE [dbo].[FactOrder] CHECK CONSTRAINT [fk_FactOrder_DimDate]
+GO
+ALTER TABLE [dbo].[FactOrder]  WITH CHECK ADD  CONSTRAINT [fk_FactOrder_DimLocation] FOREIGN KEY([Location_SK])
+REFERENCES [dbo].[DimLocation] ([Location_SK])
+GO
+ALTER TABLE [dbo].[FactOrder] CHECK CONSTRAINT [fk_FactOrder_DimLocation]
+GO
+ALTER TABLE [dbo].[FactOrder]  WITH CHECK ADD  CONSTRAINT [fk_FactOrder_DimProduct] FOREIGN KEY([Product_SK])
+REFERENCES [dbo].[DimProduct] ([Product_SK])
+GO
+ALTER TABLE [dbo].[FactOrder] CHECK CONSTRAINT [fk_FactOrder_DimProduct]
+GO
+USE [master]
+GO
+ALTER DATABASE [ChampionKicksDM] SET  READ_WRITE 
+GO
