@@ -40,8 +40,16 @@ Hi, I'm Falmata Wako, currently pursuing a Bachelor of Science in Business Admin
 
 ### J.P. Morgan (San Francisco, CA)
 **Investment Banking Summer Analyst, Mergers and Acquisitions Group | June 2023 – August 2023**
-- Collaborated on 4 M&As and 1 shareholder activism deal within technology and healthcare industry.
-- Conducted 10+ valuation analyses (DCF, LBO, etc.) and prepared presentation materials for clients.
+- Collaborated on 4 M&As and 1 shareholder activism deal within technology and healthcare industry
+- Conducted 10+ valuation analyses (DCF, LBO, etc.) and prepared presentation materials for clients
+- Engaged with 4 sets of stakeholders to improve and deliver on key performance metrics and goals
+- Notable Deals Staffed on:
+    - A $2.5B deal involving defending a client from an activist investor
+    - Sell-side/financing advisory of a startup looking for capital
+    - 3 M&A deals for clients in the tech and healthcare sector
+- Technologies: Excel, PowerPoint, FactSet, BamSEC, AlphaSense, Refintiv, DealWorks, Datasite
+- Soft Skills: Presentation and communication, critical thinking, attention to detail, collaboration, analytical thinking
+- Accomplishment: One of the M&A deals I was staffed on closed with the client being acquired.
 
 ### Cedar Investors (Denver, CO)
 **Analyst Intern | January 2023 – May 2023**
