@@ -5,7 +5,7 @@ Welcome to my GitHub portfolio! Below you'll find information about my backgroun
 ## Table of Contents
 - [About Me](#about-me)
 - [Professional Experience](#professional-experience)
-- [Work Examples](#work-examples)
+- [Work Samples](#work-examples)
 - [Skills](#skills)
 - [Additional](#additional)
 
@@ -53,13 +53,14 @@ Hi, I'm Falmata Wako, currently pursuing a Bachelor of Science in Business Admin
 
 ### Cedar Investors (Denver, CO)
 **Analyst Intern | January 2023 – May 2023**
-- Analyzed confidential information memorandums of 15 acquisition targets, enriching strategic insights.
-- Proposed targeted questions for acquisition targets and sell-side advisors, streamlining due diligence.
+- Analyzed confidential information memorandums of 15 acquisition targets, enriching strategic insights
+- Proposed targeted questions for acquisition targets and sell-side advisors, streamlining due diligence
+- Recommended and justified new geographic markets for portfolio expansion, driving organic growth
 
-[View Full Work Experience](link_to_work_experience.md)
+[View Full Work Experience on[LinkedIn]](https://www.linkedin.com/in/falmatawako/).
 
 <a name="work-examples"></a>
-## Work Examples
+## Work Samples
 
 ### Trackfolio
 Developed a Windows Forms app for tracking past stock trades using C#, MS SQL Server, and Visio.
