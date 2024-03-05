@@ -97,6 +97,8 @@ Full Project: [View Code](Falmata_Wako_Homework_2.html)
 <a name="skills"></a>
 ## Skills
 
+The following skills are either from a class setting, work experience, self-thaught through courses, or a combination of all. Feel free to ask me about any of them and I can elaborate.
+
 ### Technical Skills
 - **Programming Languages:** Python, SQL, VBA, C#, R
 - **Data Tools:** Tableau, Power BI, MS SQL Server Management Studio, Excel, Salesforce (CRM), JMP
