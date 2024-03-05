@@ -146,6 +146,6 @@ The following skills are either from a class setting, work experience, self-thau
 - Combat Sports (MMA, Boxing)
 - A little bit of Formula 1
 
-Don't hesitate to contact me.
+Please don't hesitate to contact me.
 
 [Back to Top](#top)
