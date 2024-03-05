@@ -57,7 +57,7 @@ Hi, I'm Falmata Wako, currently pursuing a Bachelor of Science in Business Admin
 - Proposed targeted questions for acquisition targets and sell-side advisors, streamlining due diligence
 - Recommended and justified new geographic markets for portfolio expansion, driving organic growth
 
-[View Full Work Experience on[LinkedIn]](https://www.linkedin.com/in/falmatawako/).
+[View Full Work Experience on LinkedIn](https://www.linkedin.com/in/falmatawako/).
 
 <a name="work-examples"></a>
 ## Work Samples
