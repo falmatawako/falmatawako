@@ -23,7 +23,7 @@ Hi, I'm Falmata Wako, currently pursuing a Bachelor of Science in Business Admin
 - *Relevant Coursework:* Project Management, Information Management, Business Communication, Automating Business Processes, Data Mining and Warehousing, Leadership, Business Intelligence
 - *Study Abroad Program:* Queen Mary, University of London during the Fall 2022 semester in London, England
 
-[View Full Resume](link_to_resume.pdf)
+[View Full Resume](Falmata_Wako_Resume.pdf)
 
 <a name="professional-experience"></a>
 ## Professional Experience
