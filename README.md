@@ -79,7 +79,8 @@ Data Mart Build Code: [View Code](DMBuildCode.txt)
 
 ### Simplex Linear Programming Optimization Problem
 Solved an optimization problem using Pandas and Pyomo in Python. The question I was trying to answer was "What is the minimum distance the professor can drive to deliver 5 cars to 3 different students given a number of constraints?"
-Solution Summary:
+
+Optimal Solution:
 <img src="https://raw.githubusercontent.com/falmatawako/falmatawako/main/SolutionSummary.png">
 
 Full Project: [View Code](Falmata_Wako_Homework_2.html)
