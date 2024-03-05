@@ -75,7 +75,7 @@ Demo Video: [Click here to watch a demo of the app and see code snippets](https:
 ### Shoe Store Data Mart
 Collaboratively led team members and created a data mart for a shoe store using SQL Server Integration Services and Python.
 
-Data Mart Build Code: [Code Snippet](https://drive.google.com/file/d/1zYFiJbeBJaEFR2g66GVMmYXPJoDQMQGZ/view?usp=sharing)
+Data Mart Build Code: [View Code](DMBuildCode.txt)
 
 ### R Flexdashboard
 Designed an interactive dashboard to explore salary data using various predictive modeling techniques.
