@@ -28,10 +28,15 @@ Hi, I'm Falmata Wako, currently pursuing a Bachelor of Science in Business Admin
 <a name="professional-experience"></a>
 ## Professional Experience
 
-### Accelerant.ai (Remote)
+### Accelerant.ai (Denver - Remote)
 **Analyst Intern | September 2023 – Present**
-- Developed multi-year forecasting models to discover trends and insights.
-- Consolidated scattered data from 10+ files into a centralized location.
+- Develop multi-year forecasting models to discover trends and insights to support strategic initiatives
+- Consolidate scattered data from 10+ files into a centralized location to function as a source of truth
+- Partner with 3 cross-functional teams to gather and analyze financial data to support decision-making
+- Recent Project
+    - Developed a model that helps the operation team make decisions on whether to contract or hire employees internally          based on past data from invoices. Generated $26,427 in savings when applying 2023 figures to the model.
+- Technologies: Excel, Legisway, Sharepoint
+- Soft Skills: Critical thinking, problem-solving, communication, teamwork
 
 ### J.P. Morgan (San Francisco, CA)
 **Investment Banking Summer Analyst, Mergers and Acquisitions Group | June 2023 – August 2023**
