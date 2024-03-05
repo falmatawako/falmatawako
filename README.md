@@ -125,6 +125,10 @@ Full Project: [View Code](Falmata_Wako_Homework_2.html)
 <a name="additional"></a>
 ## Additional
 
+### Reiman Fund 1 – Part of the University of Denver’s Endowment Fund
+**Portfolio Analyst | January 2024 – Present**
+- Collaboratively manage a $500K active-strategy equity portfolio overlooking stocks in multiple sectors.
+
 ### Society of Physics Students (Denver, CO)
 **Member | September 2021 – Present**
 
@@ -132,13 +136,10 @@ Full Project: [View Code](Falmata_Wako_Homework_2.html)
 **Representative | January 2017 – May 2017**
 - Led meetings and engaged with school administrators and students to increase school spirit.
 
-### Reiman Fund 1 – Part of the University of Denver’s Endowment Fund
-- Collaboratively manage a $500K active-strategy equity portfolio overlooking stocks in multiple sectors.
-
 
 ### Hobbies
 - Soccer (Watching the Premier League and Playing)
-- Personal Finance (Stock Market, Credit Cards, etc)
+- Personal Finance (Stock Market, Credit Cards, etc.)
 - YouTube
 - Combat Sports (MMA, Boxing)
 - A little bit of Formula 1
